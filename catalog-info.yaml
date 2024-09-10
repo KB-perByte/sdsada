@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sadad.sdas
+  description: dasd
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: KB-perByte/sdsada
+spec:
+  type: collection-project
+  system: system:default/artist-engagement-portal
+  lifecycle: production
+  owner: group:default/team-c
